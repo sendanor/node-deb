@@ -17,15 +17,16 @@ url="http://nodejs.org/dist/v""$version""/$file"
 
 # Check env
 
-distribution="Unknown"
+machine="$(uname -m)"
+distribution="Unknown ($machine)"
 if test -f /etc/lsb-release; then
 	. /etc/lsb-release
-	distribution="$DISTRIB_DESCRIPTION"
+	distribution="$DISTRIB_DESCRIPTION ($machine)"
 else
 	if test -f /etc/debian_version; then
-		distribution="Debian $(cat /etc/debian_version)"
+		distribution="Debian $(cat /etc/debian_version) ($machine)"
 	else
-		distribution="$(uname -a)"
+		distribution="$(uname -a) ($machine)"
 	fi
 fi
 
