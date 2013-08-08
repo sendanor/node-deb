@@ -1,4 +1,7 @@
 #!/bin/sh
+# Publish built packages on remote site
+#
+
 self="$(readlink -e "$0")"
 dir="$(dirname "$self")"
 

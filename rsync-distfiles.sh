@@ -1,4 +1,6 @@
 #!/bin/sh
+# Rsync local distfiles to remote target
+# 
 self="$(readlink -e "$0")"
 dir="$(dirname "$self")"
 
@@ -7,7 +9,7 @@ set -e
 host="$1"
 
 if test x"$host" = x; then
-	echo "USAGE: publish.sh VERSION [USER@]HOSTNAME" >&2
+	echo "USAGE: rsync-distfiles.sh [USER@]HOSTNAME" >&2
 	exit 1
 fi
 

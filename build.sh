@@ -1,4 +1,7 @@
 #!/bin/sh
+# Build node.js
+#
+
 self="$(readlink -e "$0")"
 dir="$(dirname "$self")"
 
