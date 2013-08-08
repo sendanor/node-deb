@@ -1,0 +1,14 @@
+Source: nodejs
+Section: unknown
+Priority: extra
+Maintainer: Jaakko-Heikki Heusala <jheusala@sendanor.fi>
+Build-Depends: debhelper (>= 7), autotools-dev, dh-buildinfo, python, libev-dev, libc-ares-dev, binutils, libssl-dev, openssl, pkg-config, curl
+Standards-Version: 3.7.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: nodejs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Node.js JavaScript runtime
+ Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that 
+ makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.

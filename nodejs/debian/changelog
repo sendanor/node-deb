@@ -1,0 +1,102 @@
+nodejs (0.10.13-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Sat, 20 Jul 2013 01:09:25 +0300
+
+nodejs (0.10.12-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Mon, 08 Jul 2013 06:42:30 +0300
+
+nodejs (0.10.6-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Wed, 15 May 2013 07:47:12 +0300
+
+nodejs (0.10.1-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Sun, 24 Mar 2013 00:05:06 +0200
+
+nodejs (0.8.18-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Tue, 22 Jan 2013 12:39:47 +0200
+
+nodejs (0.8.14-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Sat, 10 Nov 2012 00:12:06 +0200
+
+nodejs (0.8.1-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Mon, 02 Jul 2012 18:01:28 +0300
+
+nodejs (0.8.0-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Tue, 26 Jun 2012 23:33:59 +0300
+
+nodejs (0.6.18-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Sat, 19 May 2012 20:43:43 +0300
+
+nodejs (0.6.0-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Sat, 05 Nov 2011 20:56:45 +0200
+
+nodejs (0.4.12-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Fri, 04 Nov 2011 08:48:30 +0200
+
+nodejs (0.4.11-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Sat, 27 Aug 2011 05:16:32 +0300
+
+nodejs (0.4.10-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Thu, 28 Jul 2011 02:46:49 +0300
+
+nodejs (0.4.5-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jhh@sendanor.com>  Sun, 03 Apr 2011 12:21:09 +0300
+
+nodejs (0.4.2-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jheusala@sendanor.fi>  Sat, 12 Mar 2011 12:31:12 +0200
+
+nodejs (0.4.0-1) unstable; urgency=low
+
+  * Upgraded to upstream
+
+ -- Jaakko-Heikki Heusala <jheusala@sendanor.fi>  Sun, 13 Feb 2011 10:05:13 +0200
+
+nodejs (0.1.33-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Jaakko-Heikki Heusala <jheusala@sendanor.fi>  Tue, 06 Apr 2010 19:10:31 +0300
+
