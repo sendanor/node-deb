@@ -1,10 +1,10 @@
 Source: nodejs
 Section: unknown
 Priority: extra
-Maintainer: Jaakko-Heikki Heusala <jheusala@sendanor.fi>
+Maintainer: Jaakko-Heikki Heusala <jhh@sendanor.com>
 Build-Depends: debhelper (>= 7), autotools-dev, dh-buildinfo, python, libev-dev, libc-ares-dev, binutils, libssl-dev, openssl, pkg-config, curl
 Standards-Version: 3.7.3
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://nodejs.org
 
 Package: nodejs
 Architecture: any
