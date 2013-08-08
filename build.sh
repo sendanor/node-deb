@@ -81,6 +81,8 @@ echo "Done."
 echo -n "### Finishing... "
 cp -f debian/changelog ../../nodejs/debian/changelog
 git commit -a -m "New build for $distribution"
+cd $dir
+rm -rf build/nodejs-"$version/"
 echo "Done."
 
 # EOF
