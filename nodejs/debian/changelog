@@ -1,5 +1,11 @@
 nodejs (0.10.15-1) precise; urgency=low
 
+  * New build for Ubuntu 12.04.2 LTS (i686)
+
+ -- jhh <jhh@ubuntu32-lts.lan.jhh.me>  Thu, 08 Aug 2013 08:03:48 +0300
+
+nodejs (0.10.15-1) precise; urgency=low
+
   * New build for Ubuntu 12.04.2 LTS
 
  -- Jaakko-Heikki Heusala <jheusala@iki.fi>  Thu, 08 Aug 2013 06:34:01 +0300
