@@ -1,10 +1,15 @@
 node-deb
 ========
 
-Debian/Ubuntu build rules and scripts for Node.js.
+These are our build rules and scripts to build Node.js packages for Debian/Ubuntu.
 
-Usage
------
+Pre-built binaries
+------------------
+
+Our packages are published here: https://dev.sendanor.com/pub/nodejs/
+
+Building from the source
+------------------------
 
 Clone the repository:
 
