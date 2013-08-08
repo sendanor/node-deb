@@ -1,5 +1,11 @@
 nodejs (0.10.15-1) precise; urgency=low
 
+  * New build for Debian 6.0.7 (i686)
+
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Thu, 08 Aug 2013 08:15:51 +0300
+
+nodejs (0.10.15-1) precise; urgency=low
+
   * New build for Ubuntu 12.04.2 LTS
 
  -- Jaakko-Heikki Heusala <jheusala@iki.fi>  Thu, 08 Aug 2013 06:34:01 +0300
