@@ -15,6 +15,20 @@ file="node-v""$version"".tar.gz"
 
 url="http://nodejs.org/dist/v""$version""/$file"
 
+# Check env
+
+distribution="Unknown"
+if test -f /etc/lsb-release; then
+	. /etc/lsb-release
+	distribution="$DISTRIB_DESCRIPTION"
+else
+	if test -f /etc/debian_version; then
+		distribution="Debian $(cat /etc/debian_version)"
+	else
+		distribution="$(uname -a)"
+	fi
+fi
+
 # Create directories
 echo -n "### Creating directories... "
 cd "$dir"
@@ -55,6 +69,17 @@ fi
 
 cp -afr ../nodejs/debian nodejs-"$version"/debian
 
+cd nodejs-"$version"
+debchange -v "$version-1" "New build for $distribution"
+echo "Done."
+
+echo -n "### Building... "
+dpkg-buildpackage -rfakeroot
+echo "Done."
+
+echo -n "### Finishing... "
+cp -f debian/changelog ../../nodejs/debian/changelog
+git commit -a -m "New build for $distribution"
 echo "Done."
 
 # EOF
