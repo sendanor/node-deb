@@ -26,7 +26,7 @@ else
 	if test -f /etc/debian_version; then
 
 		# test for Rasbian
-		if x"$(dpkg --print-architecture)" = xarmhf; then
+		if test x"$(dpkg --print-architecture)" = xarmhf; then
 			distribution="Raspbian $(cat /etc/debian_version) ($machine)"
 
 		# Generic Debian
