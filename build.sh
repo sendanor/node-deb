@@ -24,7 +24,15 @@ if test -f /etc/lsb-release; then
 	distribution="$DISTRIB_DESCRIPTION ($machine)"
 else
 	if test -f /etc/debian_version; then
-		distribution="Debian $(cat /etc/debian_version) ($machine)"
+
+		# test for Rasbian
+		if x"$(dpkg --print-architecture)" = xarmhf; then
+			distribution="Raspbian $(cat /etc/debian_version) ($machine)"
+
+		# Generic Debian
+		else
+			distribution="Debian $(cat /etc/debian_version) ($machine)"
+		fi
 	else
 		distribution="$(uname -a) ($machine)"
 	fi

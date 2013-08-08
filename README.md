@@ -1,7 +1,7 @@
 node-deb
 ========
 
-These are our build rules and scripts to build Node.js packages for Debian/Ubuntu.
+These are our build rules and scripts to build Node.js packages for Debian/Ubuntu/Raspbian.
 
 Pre-built binaries
 ------------------
