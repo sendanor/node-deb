@@ -11,6 +11,10 @@ Our packages are published here: https://dev.sendanor.com/pub/nodejs/
 Building from the source
 ------------------------
 
+Install dependencies:
+
+	$ apt-get install devscripts git libwww-ssl
+
 Clone the repository:
 
 	$ git clone https://github.com/Sendanor/node-deb.git node-deb
