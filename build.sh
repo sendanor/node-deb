@@ -62,6 +62,18 @@ else
 fi
 echo "Done."
 
+# Check sums
+echo -n "### Checking SHASUMS... "
+remote_shasum="$(cat ../distfiles/SHASUMS|grep -F "$file"|awk '{print $1}')"
+local_shasum="$(shasum -b ../distfiles/"$file"|awk '{print $1}')"
+if test "x$remote_shasum" = "x$local_shasum"; then
+	:
+else
+	echo "Failed!"
+	exit 1
+fi
+echo "Done."
+
 # Unpacking
 echo -n "### Unpacking... "
 cd "$dir/build"
