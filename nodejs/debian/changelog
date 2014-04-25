@@ -1,3 +1,9 @@
+nodejs (0.10.26-1) UNRELEASED; urgency=low
+
+  * New build for Debian 7.4 (x86_64)
+
+ -- jhh <jhh@debian64-7.lan.jhh.me>  Fri, 25 Apr 2014 08:54:14 +0300
+
 nodejs (0.10.15-1) precise; urgency=low
 
   * New build for Ubuntu 12.04.2 LTS
