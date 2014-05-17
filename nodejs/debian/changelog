@@ -1,3 +1,9 @@
+nodejs (0.10.28-1) precise; urgency=low
+
+  * New build for Debian 6.0.9 (i686)
+
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Sat, 17 May 2014 23:45:18 +0300
+
 nodejs (0.10.26-1) precise; urgency=low
 
   * New build for Debian 6.0.9 (i686)
