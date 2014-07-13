@@ -1,3 +1,9 @@
+nodejs (0.10.29-1) precise; urgency=low
+
+  * New build for Ubuntu 12.04.4 LTS (i686)
+
+ -- jhh <jhh@ubuntu32-lts.lan.jhh.me>  Sun, 13 Jul 2014 23:00:23 +0300
+
 nodejs (0.10.26-1) precise; urgency=low
 
   * New build for Ubuntu 12.04.4 LTS (i686)
