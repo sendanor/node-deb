@@ -13,7 +13,7 @@ Building from the source
 
 Install dependencies:
 
-	$ apt-get install devscripts git libwww-ssl autotools-dev dh-buildinfo libev-dev libc-ares-dev
+	$ apt-get install devscripts git libwww-ssl autotools-dev dh-buildinfo libev-dev libc-ares-dev libssl-dev pkg-config curl
 
 Clone the repository:
 
@@ -32,3 +32,7 @@ Build new package:
 	-rw-r--r--  1 jhh jhh 4.7M Aug  8 06:44 nodejs_0.10.15-1_amd64.deb
 	-rw-rw-r--  1 jhh jhh  680 Aug  8 06:34 nodejs_0.10.15-1.dsc
 	-rw-rw-r--  1 jhh jhh  14M Aug  8 06:34 nodejs_0.10.15-1.tar.gz
+
+Build 0.11.13 version with different prefix and package name:
+
+	$ ./build.sh 0.11.13 /opt/nodejs/0.11.13 nodejs-0.11.13

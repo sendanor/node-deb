@@ -7,10 +7,14 @@ dir="$(dirname "$self")"
 
 set -e
 
+pkgname=nodejs
+prefix=/usr
 version="$1"
+test -n "$2" && prefix="$2"
+test -n "$3" && pkgname="$3"
 
 if test x"$version" = x; then
-	echo "USAGE: build.sh VERSION" >&2
+	echo "USAGE: build.sh VERSION [PREFIX [PKGNAME]]" >&2
 	exit 1
 fi
 
@@ -78,22 +82,37 @@ echo "Done."
 echo -n "### Unpacking... "
 cd "$dir/build"
 
-if test -d ./nodejs-"$version"; then
-	echo "Directory exists already: build/nodejs-""$version" >&2
+if test -d ./"$pkgname"-"$version"; then
+	echo "Directory exists already: build/""$pkgname""-""$version" >&2
 	exit 1
 fi
 
 tar -zxf ../distfiles/"$file"
-mv "node-v""$version" nodejs-"$version"
+mv "node-v""$version" "$pkgname"-"$version"
 
-if test -d ./nodejs-"$version"/debian; then
-	echo "Directory exists already: build/nodejs-""$version""/debian" >&2
+if test -d ./"$pkgname"-"$version"/debian; then
+	echo "Directory exists already: build/""$pkgname""-""$version""/debian" >&2
 	exit 1
 fi
 
-cp -afr ../nodejs/debian nodejs-"$version"/debian
+cp -afr ../nodejs/debian "$pkgname"-"$version"/debian
 
-cd nodejs-"$version"
+# Fix prefix
+(
+	cd "$pkgname"-"$version"/debian
+
+	for file in README.Debian changelog rules; do
+		sed -i "s@nodejs@$pkgname@g" "$file"
+	done
+
+	sed -i "s@Package: nodejs@Package: $pkgname@g" control
+	sed -i "s@Source: nodejs@Source: $pkgname@g" control
+
+	sed -i "s@\-\-prefix=/usr@--prefix=$prefix@g" rules
+)
+
+cd "$pkgname"-"$version"
+
 debchange -v "$version-1" "New build for $distribution"
 echo "Done."
 
@@ -105,7 +124,7 @@ echo -n "### Finishing... "
 cp -f debian/changelog ../../nodejs/debian/changelog
 git commit -a -m "New build for $distribution"
 cd $dir
-rm -rf build/nodejs-"$version/"
+rm -rf build/"$pkgname"-"$version/"
 echo "Done."
 
 # EOF
