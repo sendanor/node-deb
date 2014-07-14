@@ -1,8 +1,9 @@
-nodejs (0.10.26-1) UNRELEASED; urgency=low
+nodejs (0.10.29-1) UNRELEASED; urgency=low
 
   * New build for Debian 7.4 (x86_64)
+  * New build for Debian 7.4 (x86_64)
 
- -- jhh <jhh@debian64-7.lan.jhh.me>  Fri, 25 Apr 2014 08:54:14 +0300
+ -- jhh <jhh@b3-64-debian-7.sendanor.com>  Mon, 14 Jul 2014 03:28:22 +0300
 
 nodejs (0.10.15-1) precise; urgency=low
 
