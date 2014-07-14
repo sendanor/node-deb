@@ -1,0 +1,23 @@
+{
+  "name": "node-deb",
+  "version": "0.1.0",
+  "description": "Node Build Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sendanor/node-deb.git"
+  },
+  "keywords": [
+    "node",
+    "build"
+  ],
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sendanor/node-deb/issues"
+  },
+  "homepage": "https://github.com/sendanor/node-deb"
+}
