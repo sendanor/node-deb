@@ -1,3 +1,9 @@
+nodejs (0.10.29-1) precise; urgency=low
+
+  * New build for Debian 6.0.9 (x86_64)
+
+ -- jhh <jhh@b5-64-debian-6.sendanor.com>  Sat, 19 Jul 2014 16:30:44 +0300
+
 nodejs (0.10.15-1) precise; urgency=low
 
   * New build for Ubuntu 12.04.2 LTS
