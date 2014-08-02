@@ -1,38 +1,44 @@
 nodejs (0.10.29-1) precise; urgency=low
 
-  * New build for Ubuntu 12.04.4 LTS (i686)
+  * New build for Debian 6.0.9 (i686)
 
- -- jhh <jhh@ubuntu32-lts.lan.jhh.me>  Sun, 13 Jul 2014 23:00:23 +0300
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Sun, 13 Jul 2014 23:02:48 +0300
+
+nodejs (0.10.28-1) precise; urgency=low
+
+  * New build for Debian 6.0.9 (i686)
+
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Sat, 17 May 2014 23:45:18 +0300
 
 nodejs (0.10.26-1) precise; urgency=low
 
-  * New build for Ubuntu 12.04.4 LTS (i686)
+  * New build for Debian 6.0.9 (i686)
 
- -- jhh <jhh@ubuntu32-lts.lan.jhh.me>  Fri, 25 Apr 2014 08:18:58 +0300
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Fri, 25 Apr 2014 08:18:39 +0300
 
 nodejs (0.10.21-1) precise; urgency=low
 
-  * New build for Ubuntu 12.04.3 LTS (i686)
+  * New build for Debian 6.0.8 (i686)
 
- -- jhh <jhh@ubuntu32-lts.lan.jhh.me>  Mon, 21 Oct 2013 13:28:43 +0300
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Mon, 21 Oct 2013 10:38:25 +0300
 
 nodejs (0.10.18-1) precise; urgency=low
 
-  * New build for Ubuntu 12.04.3 LTS (i686)
+  * New build for Debian 6.0.7 (i686)
 
- -- jhh <jhh@ubuntu32-lts.lan.jhh.me>  Sun, 08 Sep 2013 19:38:46 +0300
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Sun, 08 Sep 2013 19:35:17 +0300
 
 nodejs (0.10.17-1) precise; urgency=low
 
-  * New build for Ubuntu 12.04.3 LTS (i686)
+  * New build for Debian 6.0.7 (i686)
 
- -- jhh <jhh@ubuntu32-lts.lan.jhh.me>  Fri, 23 Aug 2013 05:20:54 +0300
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Fri, 23 Aug 2013 05:20:30 +0300
 
 nodejs (0.10.15-1) precise; urgency=low
 
-  * New build for Ubuntu 12.04.2 LTS (i686)
+  * New build for Debian 6.0.7 (i686)
 
- -- jhh <jhh@ubuntu32-lts.lan.jhh.me>  Thu, 08 Aug 2013 08:03:48 +0300
+ -- jhh <jhh@debian32-6.lan.jhh.me>  Thu, 08 Aug 2013 08:15:51 +0300
 
 nodejs (0.10.15-1) precise; urgency=low
 
