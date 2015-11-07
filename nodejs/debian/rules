@@ -77,7 +77,8 @@ binary-indep: build install
 binary-arch: build install
 	dh_testdir
 	dh_testroot
-	dh_installchangelogs ChangeLog
+	@if test -f ChangeLog; then dh_installchangelogs ChangeLog; fi
+	@if test -f CHANGELOG.md; then dh_installchangelogs CHANGELOG.md; fi
 	#dh_installdocs
 	dh_installexamples
 #	dh_install
