@@ -69,7 +69,11 @@ echo "Done."
 # Check sums
 echo -n "### Checking SHASUMS... "
 remote_shasum="$(cat ../distfiles/SHASUMS|grep -F "$file"|awk '{print $1}')"
-local_shasum="$(shasum -b ../distfiles/"$file"|awk '{print $1}')"
+if test "x$(echo -n "$remote_shasum"|wc -m)" = x40; then
+	local_shasum="$(shasum -b ../distfiles/"$file"|awk '{print $1}')"
+else
+	local_shasum="$(sha256sum -b ../distfiles/"$file"|awk '{print $1}')"
+fi
 if test "x$remote_shasum" = "x$local_shasum"; then
 	:
 else
