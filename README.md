@@ -13,7 +13,7 @@ Building from the source
 
 Install dependencies:
 
-	$ apt-get install devscripts git libwww-ssl autotools-dev dh-buildinfo libev-dev libc-ares-dev libssl-dev pkg-config curl
+	$ apt-get install devscripts git autotools-dev dh-buildinfo libev-dev libc-ares-dev libssl-dev pkg-config curl
 
 Clone the repository:
 
