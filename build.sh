@@ -57,7 +57,7 @@ cd "$dir/distfiles"
 if test -f "$file"; then
 	:
 else
-	if wget "$url" -O "$file"; then
+	if wget -4 "$url" -O "$file"; then
 		:
 	else
 		echo "Failed to get source: $url" >&2
