@@ -36,3 +36,16 @@ Build new package:
 Build 0.11.13 version with different prefix and package name:
 
 	$ ./build.sh 0.11.13 /opt/nodejs/0.11.13 nodejs-0.11.13
+
+***Note!*** If you are building for an older Ubuntu LTS, or another Debian-based OS, make sure to change the branch first, or create a new one first. Eg. `ubuntu1604` for Ubuntu 16.04 LTS.
+
+Updating the SHASUM for a newer NodeJS release
+----------------------------------------------
+
+Then you’ll fetch the SHA SUM on the newest release from blog post at https://nodejs.org/en/blog/. 
+
+For example as of now newest LTS blog post is https://nodejs.org/en/blog/release/v10.15.3/, and there you’ll notice a row like: 
+
+    db460a63d057ac015b75bb6a879fcbe2fefaaf22afa4b6f6445b9db61ce2270d  node-v10.15.3.tar.gz 
+
+You need to append this row to `./distfiles/SHASUMS`.
