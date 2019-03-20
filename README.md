@@ -17,7 +17,7 @@ Install dependencies:
 
 Clone the repository:
 
-	$ git clone https://github.com/Sendanor/node-deb.git node-deb
+	$ git clone https://github.com/sendanor/node-deb.git node-deb
 
 Build new package:
 
