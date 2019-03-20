@@ -1,4 +1,4 @@
-nodejs (4.4.7-1) UNRELEASED; urgency=low
+nodejs (10.15.3-1) UNRELEASED; urgency=low
 
   [ jhh ]
   * New build for Debian 7.6 (x86_64)
@@ -10,7 +10,10 @@ nodejs (4.4.7-1) UNRELEASED; urgency=low
   * New build for Ubuntu 14.04.4 LTS (x86_64)
   * New build for Ubuntu 14.04.4 LTS (x86_64)
 
- -- Jaakko-Heikki Heusala <app@app-1>  Sat, 30 Jul 2016 11:07:51 +0000
+  [ jhh ]
+  * New build for Ubuntu 18.04.2 LTS (x86_64)
+
+ -- jhh <jhh@ws2.sendanor.fi>  Wed, 20 Mar 2019 10:19:13 +0200
 
 nodejs (0.10.29-1) precise; urgency=low
 
